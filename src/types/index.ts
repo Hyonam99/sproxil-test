@@ -21,3 +21,14 @@ export type UserDataType = {
 		bs: string;
 	};
 };
+
+export type UserType = {
+	email: string;
+	password: string;
+	role: "ADMIN" | "USER";
+};
+
+export type AuthOptionsType = {
+	onSuccess: (data: any) => void;
+	onError: (error: any) => void;
+};

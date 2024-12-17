@@ -11,28 +11,28 @@ const CustomerHeader = () => {
 					<h3>5,423</h3>
 					<small>
 						<FaArrowUpLong color="green" />
-						16%
+						16% this month
 					</small>
 				</div>
 			</div>
 
 			<div>
-				<img src="/images/profile-2user.svg" alt="dashboard image" />
+				<img src="/images/profile-tick.svg" alt="dashboard image" />
 				<div>
 					<p>Members</p>
-					<h3>5,423</h3>
+					<h3>1,893</h3>
 					<small>
 						<FaArrowDownLong color="red" />
-						1%
+						1% this month
 					</small>
 				</div>
 			</div>
 
 			<div>
-				<img src="/images/profile-2user.svg" alt="dashboard image" />
+				<img src="/images/monitor.svg" alt="dashboard image" />
 				<div>
 					<p>Active Now</p>
-					<h3>5,423</h3>
+					<h3>189</h3>
 					<p></p>
 				</div>
 			</div>

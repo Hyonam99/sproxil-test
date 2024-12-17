@@ -1,0 +1,10 @@
+.app_layout {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    min-height: 100dvh;
+}
+
+.app_content {
+    padding: 1.5rem;
+    background-color: var(--primary-color-fade);
+}

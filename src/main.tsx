@@ -4,8 +4,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from './App.tsx'
 import AppLayout from './layouts/AppLayout.tsx';
 import PageNotFound from './pages/PageNotFound.tsx';
-
 import './index.css'
+import Customers from './pages/Customers.tsx';
 
 const router = createBrowserRouter([
 	{
@@ -20,6 +20,10 @@ const router = createBrowserRouter([
 			{
 				path: "login",
 				element: <>Login</>,
+			},
+			{
+				path: "customers",
+				element: <Customers />,
 			},
 
 		],

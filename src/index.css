@@ -1,20 +1,27 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 
-  --primary-color: #5c045c;
-  --primary-color-light: hsl(300, 92%, 39%);
-  --danger-color: red;
-  --success-color: green;
+	--primary-color: #4b089c;
+	--primary-color-light: hsl(267, 90%, 62%);
+	--primary-color-fade: hsla(267, 90%, 82%, 0.274);
+	--danger-color: red;
+	--success-color: green;
+	--grey-text: grey;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.active {
+	background-color: var(--primary-color);
+	color: white !important;
 }

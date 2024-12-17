@@ -1,0 +1,12 @@
+.logo {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    margin-bottom: 5dvh;
+}
+
+.logo h2 small {
+    font-size: .8rem;
+    color: var(--grey-text);
+    font-weight: lighter;
+}

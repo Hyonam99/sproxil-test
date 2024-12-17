@@ -2,7 +2,8 @@ import SearchInput from "../search-input/SearchInput";
 import style from "./dashboard-header.module.css";
 
 const DashboardHeader = () => {
-	const userName = JSON.parse(localStorage.getItem("currentUser") || "null") 
+	const userName =
+		JSON.parse(localStorage.getItem("currentUser") || "null") || "user";
 	return (
 		<header className={style.header}>
 			<h2>Hello {userName}</h2>

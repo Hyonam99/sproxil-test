@@ -1,0 +1,88 @@
+.customers_section, .customer_header {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.customer_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.customer_header > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.customer_header > div h3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.customer_header > div p {
+    font-size: 1rem;
+    font-weight: lighter;
+    color: var(--grey-text);
+}
+
+.customers_section table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.customers_section table th {
+    color: var(--grey-text);
+    font-weight: 300;
+    text-align: left;
+}
+
+.customers_section table tbody tr td {
+    padding: 1rem 0;
+    border-bottom: 1px solid grey;
+    font-size: .8rem;
+}
+
+.active_status,
+.inactive_status {
+    text-align: center;
+    padding: .2rem;
+    border-radius: .2rem;
+}
+
+.active_status {
+    background-color: rgba(0, 128, 0, 0.411);
+    color: var(--success-color);
+}
+
+.inactive_status {
+    background-color: rgba(255, 0, 0, 0.411);
+    color: var(--danger-color);
+}
+
+/* Customer List section styles*/
+
+.customer_list_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.customer_list_header_intro h2{
+    font-weight: 500;
+}
+
+.customer_list_header_intro small{
+    color: var(--success-color);
+}
+
+.pagination_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}

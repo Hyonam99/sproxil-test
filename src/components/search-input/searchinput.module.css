@@ -1,0 +1,17 @@
+.search_wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search_wrapper svg {
+    position: absolute;
+    left: .3rem;
+}
+
+.search_wrapper input {
+    padding: .4rem 1.5rem;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
